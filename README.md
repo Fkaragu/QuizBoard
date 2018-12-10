@@ -14,17 +14,21 @@ The Quiz Board program is designed to meet the attentiveness of the user as well
 * Requires a Web browser
 * May require the user to have a github account to access it
 
-## Behaviour Driven Development
-BDD is more documenting the behaviour of the program before starting to write code. For Quiz Board program below are specification.
+## Behavior Driven Development BDD
+### Who is the target User?
+* Students who have studied Javascript.
 
-### Specification
-
+### Front-end/User Interface Logic Objectives
+* Read and understand keenly each and every question.
+* Select the appropriate choice that you have decided.
+* Review the answers only after doing an evaluation on yourself.
+* Display answers per question.
 
 ## Known Bugs
-
+Nil at the moment.
 
 ## Technologies Used
-
+I have used HTML, CSS, JavaScript and Jquery to develop the Quiz Board program. This was typed using Atom text-editor
 
 ## Support and contact details
 In case of any problems reach me through my email:fkaragu@gmail.com
