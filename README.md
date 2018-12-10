@@ -33,6 +33,15 @@ The Quiz Board program is designed to meet the attentiveness of the user as well
 * Display the answers and comments when button is clicked.
 * Display image.
 
+
+## Behaviour
+| Behaviour                              | Input Example     | Output Example    |
+|----               | :---:             |---: |
+| The program should handle:    | When it receives:     | It should return  |                             
+|----               | :---:             |---: |
+| Set default on the checkbox           | selected checkbox          | Rate/Mark              |
+| User to select checkbox             | selected checkbox          | Rate / Mark              |
+
 ## Known Bugs
 Nil at the moment.
 
