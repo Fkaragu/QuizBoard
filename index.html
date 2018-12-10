@@ -11,7 +11,7 @@
 
 <body>
   <div class="container">
-    <h1 id="header">Quiz Board<span id="conte"> (Below are trick questions take your time to answer them).</span></h1>
+    <h1 id="header">Quiz Board<span id="conte"> (The second section contains trick questions take your time to answer them).</span></h1>
 
     <div class="row">
       <div class="col-md-3">
@@ -24,101 +24,102 @@
         <div id="blanks">
           <form>
             <div class="form-group">
-              <label for="question1">Question 1: </label>
-              <label for="detail1">You have a match and you enter a wagon with a candle, a lamp and a fireplace. Which one do you light first? (20 Marks)</label>
+              <label for="question1">Question 1: </label><br>
+              <label for="detail1">What will be the output of variable x,y,z? (20 Marks)</label>
 
               <div class="radio">
                 <label>
-                  <input type="radio" name="choiceone" value="candle" checked>
-                  A candle
+                  <input type="radio" name="choiceone" value="varX" checked>
+                  var x=10
                 </label>
               </div>
 
               <div class="radio">
                 <label>
-                  <input type="radio" name="choiceone" value="lamp">
-                  A lamp
+                  <input type="radio" name="choiceone" value="varY">
+                  var y=x++
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="choiceone" value="fireplace">
-                  A fireplace
+                  <input type="radio" name="choiceone" value="varZ">
+                  var z=++x
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="choiceone" value="correct">
-                  A match
+                  console.log(x,y,z)
                 </label><br><br>
-                <p id="feedback1"> A match is used to light the rest of the options</p>
+                <p id="feedback1"> console.log(x,y,z). It will display outputs for the variables. </p>
               </div>
             </div>
           </form>
           <form>
             <div class="form-group">
-              <label for="question2">Question 2: </label>
-              <label for="detail2">Complete the series. 9 = 4, 21 = 9, 22 = 9, 24 = 10, 8 = 5, 7 = 5, 99 = 10, 100 = 7, 16 = ?, 17 =? (20 Marks)</label>
+              <label for="question2">Question 2: </label><br>
+              <label for="detail2">What is output of 5 + 4 + "3"? (20 Marks)</label>
               <div class="radio">
                 <label>
                   <input type="radio" name="choicetwo" value="correct">
-                  16 = 7 and 17 = 9
+                  93
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="choicetwo" value="16 = 8 and 17 = 8.5">
-                  16 = 8 and 17 = 8.5
+                  <input type="radio" name="choicetwo" value="12">
+                  12
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="choicetwo" value="16 = 10 and 17 = 2">
-                  16 = 10 and 17 = 2
+                  <input type="radio" name="choicetwo" value="undefined">
+                  undefined
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="choicetwo" value="16 = 8 and 17 = 5" checked>
-                  16 = 8 and 17 = 5
+                  <input type="radio" name="choicetwo" value="NaN" checked>
+                  NaN
                 </label><br><br>
-                <p id="feedback2"> 16 = 7 and 17 = 9 Sixteen (16) is made up of 7 letters and Seventeen (17) is made up of 9 letters</p>
+                <p id="feedback2"> 93. Its because 3 is a string then output of above code will 93.</p>
               </div>
             </div>
           </form>
           <form>
             <div class="form-group">
               <label for="question3">Question 3: </label><br>
-              <label for="detail3">How many sides does a circle have? (20 Marks)</label>
+              <label for="detail3">Which of the listed below options is not a type of Pop up boxes available in JavaScript (20 Marks)</label>
               <div class="radio">
                 <label>
-                  <input type="radio" name="choicethree" value="3">
-                  3
+                  <input type="radio" name="choicethree" value="Alert">
+                  Alert
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="choicethree" value="correct">
-                  2
+                  Pop up
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="choicethree" value="1">
-                  1
+                  <input type="radio" name="choicethree" value="confirm">
+                  Confirm
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="choicethree" value="4" checked>
-                  4
+                  <input type="radio" name="choicethree" value="prompt" checked>
+                  Prompt
                 </label><br><br>
-                <p id="feedback3"> 2 sides. Inner side and Outer side </p>
+                <p id="feedback3"> Pop up. Is not a type of Pop up boxes available in JavaScript </p>
               </div>
             </div>
           </form>
           <form>
             <div class="form-group">
+            <h3>In programming it's important to be careful and keen on the commands being typed. The below section is purely to jog your mind.</h3><br><br>
               <label for="question4">Question 4: </label>
               <label for="detail4">It took 20,000 workers to build the Taj Mahal in 20 years. How many workers would be required to build it in 10 years? (20 Marks)</label>
               <div class="radio">
