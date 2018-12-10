@@ -2,15 +2,60 @@
 <html>
 
 <head>
-<title>Quiz Board</title>
-<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="bootstrap/css/style.css" rel="stylesheet" type="text/css">
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="bootstrap/js/script.js"></script>
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="bootstrap/css/style.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="bootstrap/js/script.js"></script>
+  <title>Quiz Board</title>
 </head>
 
 <body>
+  <div class="container">
+    <h1 id="header">Quiz Board<span id="conte"> (Below are trick questions take your time to answer them).</span></h1>
 
+    <div class="row">
+      <div class="col-md-3">
+        <br>
+        <button class="btn btn-success" id="evaluate">Evaluate</button> <br>
+        <button type="button" disabled class="btn btn-success" id="review">Review Answers</button>
+        <img id="image" src="img/laugh.gif" alt="laugh" width="200" height="200">
+      </div>
+      <div class="col-md-9">
+        <div id="blanks">
+          <form>
+            <div class="form-group">
+              <label for="question1">Question 1: </label>
+              <label for="detail1">You have a match and you enter a wagon with a candle, a lamp and a fireplace. Which one do you light first? (20 Marks)</label>
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="choiceone" value="candle" checked>
+                  A candle
+                </label>
+              </div>
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="choiceone" value="lamp">
+                  A lamp
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="choiceone" value="fireplace">
+                  A fireplace
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="choiceone" value="correct">
+                  A match
+                </label><br><br>
+                <p id="feedback1"> A match is used to light the rest of the options</p>
+              </div>
+            </div>
+
+        </div>
 </body>
 
 </html>
