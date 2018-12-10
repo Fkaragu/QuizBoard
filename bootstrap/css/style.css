@@ -6,6 +6,7 @@
   font-family: sans-serif;
   font-size: 40px;
 }
+
 #conte {
   margin-left: 50px;
   font-size: 15px;
@@ -15,4 +16,34 @@
 
 #image {
   display: none;
+}
+
+#feedback1 {
+  display: none;
+  border: 2px solid red;
+  font-size: 15px
+}
+
+#feedback2 {
+  display: none;
+  border: 2px solid red;
+  font-size: 15px
+}
+
+#feedback3 {
+  display: none;
+  border: 2px solid red;
+  font-size: 15px
+}
+
+#feedback4 {
+  display: none;
+  border: 2px solid red;
+  font-size: 15px
+}
+
+#feedback5 {
+  display: none;
+  border: 2px solid red;
+  font-size: 15px
 }
