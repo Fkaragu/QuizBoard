@@ -24,6 +24,15 @@ The Quiz Board program is designed to meet the attentiveness of the user as well
 * Review the answers only after doing an evaluation on yourself.
 * Display answers per question.
 
+### Back-end/Business logic Objectives
+* Get input checked by the user.
+* Evaluate the values checked via the radio buttons
+* Allocate the scores / marks
+* Sum the marks and display via prompt
+* Enable the review answer button.
+* Display the answers and comments when button is clicked.
+* Display image.
+
 ## Known Bugs
 Nil at the moment.
 
