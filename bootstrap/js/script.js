@@ -61,3 +61,13 @@ $(document).ready(function() {
 
   });
 });
+$(document).ready(function() {
+  $("button#review").click(function() {
+    $("#feedback1").show();
+    $("#feedback2").show();
+    $("#feedback3").show();
+    $("#feedback4").show();
+    $("#feedback5").show();
+    $("#image").show();
+  });
+});
