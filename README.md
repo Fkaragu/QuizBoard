@@ -1,5 +1,5 @@
 # Francis Thande Karagu
-#### This is my Quiz Board Program, Friday 07th November,2018
+#### This is my Quiz Board Program, Friday 07th November 2018
 #### By **{Francis T Karagu}**
 
 ## Description
