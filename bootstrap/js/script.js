@@ -4,7 +4,6 @@ var add = function(num1, num2, num3, num4, num5) {
   alert("You have scored " + res + " out of 100");
 };
 
-
 //user interface logic:
 $(document).ready(function() {
   $("button#evaluate").click(function() {
