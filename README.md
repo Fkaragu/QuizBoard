@@ -17,3 +17,18 @@ The Quiz Board program is designed to meet the attentiveness of the user as well
 ## Behaviour Driven Development
 BDD is more documenting the behaviour of the program before starting to write code. For Quiz Board program below are specification.
 
+### Specification
+
+
+## Known Bugs
+
+
+## Technologies Used
+
+
+## Support and contact details
+In case of any problems reach me through my email:fkaragu@gmail.com
+
+### License
+Copyright (c) {2018} **{Francis Thande Karagu}**
+Permission is hereby granted, free of charge, to any person willing to obtain a copy of this program for personal use. However if the program will be used for commercial gain then a royalty fee will have to be paid to the author of the program.
