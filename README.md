@@ -38,7 +38,7 @@ The Quiz Board program is designed to meet the attentiveness of the user as well
 | Behaviour                              | Input Example     | Output Example    |
 |----               | :---:             |---: |
 | The program should handle:    | When it receives:     | It should return  |                             
-|----               | :---:             |---: |
+|:----:               | :---:             |:---: |
 | Set default on the checkbox           | selected checkbox          | Rate/Mark              |
 | User to select checkbox             | selected checkbox          | Rate / Mark              |
 
